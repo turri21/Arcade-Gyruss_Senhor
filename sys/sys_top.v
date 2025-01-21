@@ -658,7 +658,7 @@ ddr_svc ddr_svc
 	.ch1_ready(pal_wr)
 );
 
-wire clk_pal = clk_audio;
+//wire clk_pal = clk_audio;
 
 
 wire  [27:0] vbuf_address;
