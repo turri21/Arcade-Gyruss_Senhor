@@ -41,7 +41,7 @@ module sys_top
 	output        HDMI_TX_HS,
 	output        HDMI_TX_VS,
 	
-	input         HDMI_TX_INT,
+//	input         HDMI_TX_INT,
 
 	//////////// SDR ///////////
 //	output [12:0] SDRAM_A,
@@ -1414,7 +1414,7 @@ assign SDCD_SPDIF =(SW[3] & ~spdif) ? 1'b0 : 1'bZ;
 	assign AUDIO_L     = SW[3] ? 1'bZ : SW[0] ? HDMI_SCLK  : analog_l;
 `endif
 
-assign HDMI_MCLK = clk_audio;
+//assign HDMI_MCLK = clk_audio;
 wire clk_audio;
 
 pll_audio pll_audio
