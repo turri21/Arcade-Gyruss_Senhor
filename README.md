@@ -1,3 +1,10 @@
+-=(Gyruss_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: Clocks swapped in sys.tcl (no longer needed).
+___
+
 # Gyruss for [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
 An FPGA implementation of Gyruss for the MiSTer platform
 
